@@ -46,7 +46,7 @@ public class Main {
             }
 
     public void quicksorting(int[] array, int low, int high) {
-        // here is a part where I can't
+        // here is a part where I ccould not call a method from other method to sort an array
         if (low >= high) return;
         int pivot = array[low + (high - low) / 2];
 
@@ -72,6 +72,7 @@ public class Main {
         if (high > i) quicksorting(array, i, high);
 
         }
+
 
 
     }
